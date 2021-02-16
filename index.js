@@ -119,3 +119,13 @@ personnages.sort((a, b) => {
     return a.age - b.age;
 })
 console.log(personnages);
+
+/**
+ * ARRAY INCLUDES()
+ * Return Boolean
+ * Détermine si un tableau contient une valeur
+ */
+ function array_diff(a, b) {
+    return a.filter(e => !b.includes(e));
+  }
+// Array_diff compare 2 tableaux et renvoie le tableau a sans les valeurs présentes dans b
